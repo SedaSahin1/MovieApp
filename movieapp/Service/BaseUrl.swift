@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+let baseURL = "https://www.omdbapi.com"

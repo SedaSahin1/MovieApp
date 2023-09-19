@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+public class ViewModel: NSObject {
+    deinit {
+        let type = Swift.type(of: self)
+        print("\(type) DEALLOCATED")
+    }
+    var updateUI: (() -> Void)?
+}
