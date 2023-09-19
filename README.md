@@ -6,6 +6,8 @@ Network işlemleri için Alamofire kullandım.
 
 Firebase analytics entegre ettim. Eventların konsola düştüğünü gözlemledim.
 
+ImageView' ler için Kingfisher kullandım.
+
 Servisten cevap beklenen süre için loading animasyonu ve ekran geçişi için animasyon ekledim.
 
 Kullanıcı uygulamayı açtığında internet bağlantısı yoksa bir alert ile uyarı gösterdim. 
